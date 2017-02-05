@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 38e347eaa8f7f6c4ea0a8732d994179c
+timeCreated: 1460739205
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Alno
+    100002: CarregadorDeEnergia
+    100004: ComponenteTecnologico
+    100006: CronioAzul
+    100008: CronioVerde
+    100010: CronioVermelho
+    100012: EscamaBege
+    100014: EscamaVerde
+    100016: EsferaItemColetavel
+    100018: EsferaItemUsavel
+    100020: Experiencia
+    100022: Ferro
+    100024: //RootNode
+    100026: JarraPequena
+    100028: Madeira
+    100030: Mantimento
+    100032: Moeda
+    100034: OvoBege
+    100036: OvoVerde
+    100038: Presa
+    100040: QuiteMedico
+    100042: Raiz
+    100044: Raiz001
+    100046: SangueAzul
+    100048: SangueVermelho
+    400000: Alno
+    400002: CarregadorDeEnergia
+    400004: ComponenteTecnologico
+    400006: CronioAzul
+    400008: CronioVerde
+    400010: CronioVermelho
+    400012: EscamaBege
+    400014: EscamaVerde
+    400016: EsferaItemColetavel
+    400018: EsferaItemUsavel
+    400020: Experiencia
+    400022: Ferro
+    400024: //RootNode
+    400026: JarraPequena
+    400028: Madeira
+    400030: Mantimento
+    400032: Moeda
+    400034: OvoBege
+    400036: OvoVerde
+    400038: Presa
+    400040: QuiteMedico
+    400042: Raiz
+    400044: Raiz001
+    400046: SangueAzul
+    400048: SangueVermelho
+    2300000: Alno
+    2300002: CarregadorDeEnergia
+    2300004: ComponenteTecnologico
+    2300006: CronioAzul
+    2300008: CronioVerde
+    2300010: CronioVermelho
+    2300012: EscamaBege
+    2300014: EscamaVerde
+    2300016: EsferaItemColetavel
+    2300018: EsferaItemUsavel
+    2300020: Experiencia
+    2300022: Ferro
+    2300024: JarraPequena
+    2300026: Madeira
+    2300028: Mantimento
+    2300030: Moeda
+    2300032: OvoBege
+    2300034: OvoVerde
+    2300036: Presa
+    2300038: QuiteMedico
+    2300040: Raiz
+    2300042: Raiz001
+    2300044: SangueAzul
+    2300046: SangueVermelho
+    3300000: Alno
+    3300002: CarregadorDeEnergia
+    3300004: ComponenteTecnologico
+    3300006: CronioAzul
+    3300008: CronioVerde
+    3300010: CronioVermelho
+    3300012: EscamaBege
+    3300014: EscamaVerde
+    3300016: EsferaItemColetavel
+    3300018: EsferaItemUsavel
+    3300020: Experiencia
+    3300022: Ferro
+    3300024: JarraPequena
+    3300026: Madeira
+    3300028: Mantimento
+    3300030: Moeda
+    3300032: OvoBege
+    3300034: OvoVerde
+    3300036: Presa
+    3300038: QuiteMedico
+    3300040: Raiz
+    3300042: Raiz001
+    3300044: SangueAzul
+    3300046: SangueVermelho
+    4300000: SangueVermelho
+    4300002: EsferaItemColetavel
+    4300004: EsferaItemUsavel
+    4300006: Presa
+    4300008: OvoBege
+    4300010: Experiencia
+    4300012: ComponenteTecnologico
+    4300014: EscamaBege
+    4300016: Raiz
+    4300018: Madeira
+    4300020: Alno
+    4300022: CronioAzul
+    4300024: Moeda
+    4300026: QuiteMedico
+    4300028: CarregadorDeEnergia
+    4300030: CronioVerde
+    4300032: Ferro
+    4300034: CronioVermelho
+    4300036: OvoVerde
+    4300038: EscamaVerde
+    4300040: Raiz001
+    4300042: SangueAzul
+    4300044: JarraPequena
+    4300046: Mantimento
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

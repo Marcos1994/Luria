@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{5B01799C-6E1F-F593-8237-5576147AE639}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Introducoes\ControladorDeIntroducao.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Comportamentos\Gatilhos\AcaoEngatilhada.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Comportamentos\Gatilhos\GatilhoColetarItem.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Comportamentos\Gatilhos\GatilhoObjetivo.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Comportamentos\Gatilhos\GatilhoPortao.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Comportamentos\Unidades\AreaDeAtaque.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Comportamentos\Unidades\ComportamentoDeSoldado.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Comportamentos\Unidades\ComportamentoDeUnidade.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Construcoes\AbrirPortao.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Construcoes\OcultarTeto.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Dialogo\Dialogo.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Dialogo\DialogoController.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Dialogo\Fases\DialogoFase.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Dialogo\Fases\Prologo\DialogosFase_0_0.cs" />
+     <Compile Include="Assets\Jogo\Scripts\EventosJogador\AcoesJogadorAlvo.cs" />
+     <Compile Include="Assets\Jogo\Scripts\EventosJogador\AcoesJogadorAlvoEspecial.cs" />
+     <Compile Include="Assets\Jogo\Scripts\EventosJogador\AcoesJogadorAlvoPortao.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Globais\Carregamento.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Globais\CarregarCameraJogo.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Globais\ControladorDeJogo.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Hud\AcoesMenu.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Hud\ControladorDeInterface.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Hud\DestruirMensagem.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Hud\GerenciadorDeInput.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Hud\Navegacao.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Hud\StatusDeSoldado.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Hud\StatusDeUnidade.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Inventario\ComportamentoItem.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Inventario\ControladorDeInventario.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Inventario\Item.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Objetivos\Classes base\ComportamentoObjetivo.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Objetivos\Classes base\ControladorDeObjetivos.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Objetivos\Classes base\ListaDeObjetivos.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Objetivos\Classes base\Objetivo.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Objetivos\Classes base\ObjetivoAlvoEspecial.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Objetivos\Classes base\ObjetivoColetarItem.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Objetivos\Classes base\ProtegerSoldado.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Objetivos\Objetivos\Deserto\ObjetivoFase_1_1.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Objetivos\Objetivos\Prologo\ObjetivoFase_0_0.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Atributos\Atributos.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Atributos\BuildAtributos.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Efeitos\Efeito.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Efeitos\EfeitoCura.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Efeitos\EfeitoMira.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Efeitos\EfeitoSangrar.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Efeitos\EfeitoVeneno.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\ComportamentosDeEfeitos\ComportamentoEfeito.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\ComportamentosDeEfeitos\ComportamentoEscudo.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\ComportamentosDeEfeitos\ComportamentoExplosao.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\HabiAcertoCritico.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\HabiAtordoar.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\HabiCurar.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\HabiEnvenenar.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\HabiGerarEscudos.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\HabiMirar.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\HabiProvocacao.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\HabiSangrar.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\HabiTiroExplosivo.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\HabiTiroPreciso.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\Habilidade.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Habilidades\HabilidadeBasica.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Melhorias\Melhoria.cs" />
+     <Compile Include="Assets\Jogo\Scripts\Soldados\Melhorias\StaticMelhorias.cs" />
+     <Compile Include="Assets\Menus\Scripts\Introducoes\CarregamentoDeCampanha.cs" />
+     <Compile Include="Assets\Menus\Scripts\Introducoes\ControladorDeCutscene.cs" />
+     <Compile Include="Assets\Menus\Scripts\Introducoes\ImagemCutscene.cs" />
+     <Compile Include="Assets\Menus\Scripts\ListagemFimDeFase.cs" />
+     <Compile Include="Assets\Menus\Scripts\MenuDeJogo\AcoesInventario.cs" />
+     <Compile Include="Assets\Menus\Scripts\MenuDeJogo\CameraCinematic.cs" />
+     <Compile Include="Assets\Menus\Scripts\MenuDeJogo\MenuJogo.cs" />
+     <Compile Include="Assets\Menus\Scripts\MenuDeJogo\Missao.cs" />
+     <Compile Include="Assets\Menus\Scripts\MenuPrincipal.cs" />
+     <Compile Include="Assets\ScriptsGerais\CarregarItens.cs" />
+     <Compile Include="Assets\ScriptsGerais\CarregarUnidades.cs" />
+     <Compile Include="Assets\ScriptsGerais\ControladorPlayerPrefs.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
