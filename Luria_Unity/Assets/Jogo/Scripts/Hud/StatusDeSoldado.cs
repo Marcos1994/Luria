@@ -19,11 +19,11 @@ public class StatusDeSoldado : MonoBehaviour
 	void Start()
 	{
 		//pego os GameObjects do hud
-		fotoSoldado = gameObject.transform.FindChild("Foto").gameObject.GetComponent<Image>();
-		vidaSoldado = gameObject.transform.FindChild("Vida").gameObject.GetComponent<Image>();
-		energiaSoldado = gameObject.transform.FindChild("Energia").gameObject.GetComponent<Image>();
-		acaoA = gameObject.transform.FindChild("Acao_a").GetChild(0).GetComponent<Image>();
-		acaoB = gameObject.transform.FindChild("Acao_b").GetChild(0).GetComponent<Image>();
+		fotoSoldado = gameObject.transform.Find("Foto").gameObject.GetComponent<Image>();
+		vidaSoldado = gameObject.transform.Find("Vida").gameObject.GetComponent<Image>();
+		energiaSoldado = gameObject.transform.Find("Energia").gameObject.GetComponent<Image>();
+		acaoA = gameObject.transform.Find("Acao_a").GetChild(0).GetComponent<Image>();
+		acaoB = gameObject.transform.Find("Acao_b").GetChild(0).GetComponent<Image>();
 	}
 
 	public void atualizarSoldado(GameObject novoSoldado)

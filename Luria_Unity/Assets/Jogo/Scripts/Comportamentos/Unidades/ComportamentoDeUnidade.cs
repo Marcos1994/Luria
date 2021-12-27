@@ -20,7 +20,7 @@ public class ComportamentoDeUnidade : MonoBehaviour
 			redefinirLider();
 
 		//Pegar Area De Ataque
-		areaDeAtaque = gameObject.transform.FindChild("AreaDeAtaque").gameObject;
+		areaDeAtaque = gameObject.transform.Find("AreaDeAtaque").gameObject;
 
 		//Gerar as posiçoes relativas para a formaçao
 		formacao[0] = new Vector3(0,0,0);	//Central
@@ -65,14 +65,14 @@ public class ComportamentoDeUnidade : MonoBehaviour
 				//Digo que ele esta andando
 				soldadoTransform.GetComponent<ComportamentoDeSoldado>().animator.SetBool("correndo", true);
 				//Todos os soldados devem andar na mesma velocidade
-				soldadoTransform.GetComponent<NavMeshAgent>().speed = velocidadeMinima;
+				soldadoTransform.GetComponent<UnityEngine.AI.NavMeshAgent>().speed = velocidadeMinima;
 				//calculo a posicao na formacao
 				i = soldadoTransform.GetComponent<ComportamentoDeSoldado>().indiceNaUnidade;
 				if (i > 0) i = (rotacao < i) ? i - rotacao : 4 + i - rotacao;
 				//Seto o novo destino para o NavMeshAgent
-				soldadoTransform.GetComponent<NavMeshAgent>().destination = destino.transform.position + formacao[i];
+				soldadoTransform.GetComponent<UnityEngine.AI.NavMeshAgent>().destination = destino.transform.position + formacao[i];
 				//Seto a distancia minima para 1
-				soldadoTransform.GetComponent<NavMeshAgent>().stoppingDistance = 1F;
+				soldadoTransform.GetComponent<UnityEngine.AI.NavMeshAgent>().stoppingDistance = 1F;
 			}
 		}
 	}
@@ -84,11 +84,11 @@ public class ComportamentoDeUnidade : MonoBehaviour
 			//Digo que ele esta andando
 			lider.GetComponent<ComportamentoDeSoldado>().animator.SetBool("correndo", true);
 			//Todos os soldados devem andar na mesma velocidade
-			lider.GetComponent<NavMeshAgent>().speed = lider.GetComponent<ComportamentoDeSoldado>().atributos.velocidadeDeMovimento;
+			lider.GetComponent<UnityEngine.AI.NavMeshAgent>().speed = lider.GetComponent<ComportamentoDeSoldado>().atributos.velocidadeDeMovimento;
 			//Seto o novo destino para o NavMeshAgent
-			lider.GetComponent<NavMeshAgent>().destination = destino.transform.position;
+			lider.GetComponent<UnityEngine.AI.NavMeshAgent>().destination = destino.transform.position;
 			//Seto a distancia minima para 1
-			lider.GetComponent<NavMeshAgent>().stoppingDistance = 1F;
+			lider.GetComponent<UnityEngine.AI.NavMeshAgent>().stoppingDistance = 1F;
 		}
 	}
 

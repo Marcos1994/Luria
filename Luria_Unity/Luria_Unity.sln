@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luria_Unity.CSharp", "Luria_Unity.CSharp.csproj", "{488E4384-6201-83B8-CDF3-2FB2E9A0DED8}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luria_Unity", "Assembly-CSharp.csproj", "{5B01799C-6E1F-F593-8237-5576147AE639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{488E4384-6201-83B8-CDF3-2FB2E9A0DED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{488E4384-6201-83B8-CDF3-2FB2E9A0DED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{488E4384-6201-83B8-CDF3-2FB2E9A0DED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{488E4384-6201-83B8-CDF3-2FB2E9A0DED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B01799C-6E1F-F593-8237-5576147AE639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B01799C-6E1F-F593-8237-5576147AE639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B01799C-6E1F-F593-8237-5576147AE639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B01799C-6E1F-F593-8237-5576147AE639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

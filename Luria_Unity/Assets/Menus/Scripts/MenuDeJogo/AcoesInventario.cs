@@ -27,8 +27,8 @@ public class AcoesInventario : MonoBehaviour
 		{
 			for (int i = 0; i < 5; i++)
 			{
-				areaItens.GetChild(i).FindChild("Titulo").GetComponent<Text>().text = "";
-				areaItens.GetChild(i).FindChild("Icone").GetComponent<Image>().enabled = false;
+				areaItens.GetChild(i).Find("Titulo").GetComponent<Text>().text = "";
+				areaItens.GetChild(i).Find("Icone").GetComponent<Image>().enabled = false;
 			}
 		}
 	}
@@ -48,9 +48,9 @@ public class AcoesInventario : MonoBehaviour
 				if (i >= final)
 					break;
 				slotItem = areaItens.GetChild(i - inicio);
-				slotItem.FindChild("Titulo").GetComponent<Text>().text = item.nome + " teste x" + item.quantidade;
-				slotItem.FindChild("Icone").GetComponent<Image>().sprite = item.icone;
-				slotItem.FindChild("Icone").GetComponent<Image>().enabled = true;
+				slotItem.Find("Titulo").GetComponent<Text>().text = item.nome + " teste x" + item.quantidade;
+				slotItem.Find("Icone").GetComponent<Image>().sprite = item.icone;
+				slotItem.Find("Icone").GetComponent<Image>().enabled = true;
 			}
 			i++;
 		}
@@ -58,8 +58,8 @@ public class AcoesInventario : MonoBehaviour
 		for (; i < final; i++)
 		{
 			slotItem = areaItens.GetChild(i - inicio);
-			slotItem.FindChild("Titulo").GetComponent<Text>().text = "";
-			slotItem.FindChild("Icone").GetComponent<Image>().enabled = false;
+			slotItem.Find("Titulo").GetComponent<Text>().text = "";
+			slotItem.Find("Icone").GetComponent<Image>().enabled = false;
 		}
 	}
 }

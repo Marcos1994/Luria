@@ -72,7 +72,7 @@ public class ControladorDeJogo : MonoBehaviour
 		{
 			soldado.GetComponent<ComportamentoDeSoldado>().enabled = false;
 			soldado.GetComponent<ComportamentoDeSoldado>().animator.SetBool("correndo", false);
-			soldado.GetComponent<NavMeshAgent>().enabled = false;
+			soldado.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
         }
 
 		Time.timeScale = 1;

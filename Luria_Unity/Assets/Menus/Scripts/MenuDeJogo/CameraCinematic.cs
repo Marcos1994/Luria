@@ -38,7 +38,7 @@ public class CameraCinematic : MonoBehaviour
 		indiceAlvo = i;
 		alvoCamera = alvosCamera[indiceAlvo].GetChild(1);
 		if(baseCamera != null)
-			baseCamera.GetComponent<NavMeshAgent>().destination = alvosCamera[indiceAlvo].GetChild(0).position;
+			baseCamera.GetComponent<UnityEngine.AI.NavMeshAgent>().destination = alvosCamera[indiceAlvo].GetChild(0).position;
 	}
 
 	public void moverParaProximo()

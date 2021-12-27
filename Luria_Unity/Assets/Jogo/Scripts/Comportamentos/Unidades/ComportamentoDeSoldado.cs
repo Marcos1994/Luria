@@ -24,7 +24,7 @@ public class ComportamentoDeSoldado : MonoBehaviour
 
 	/*Variaveis Auxiliares*/
 	public Animator animator { get; private set; }
-	public NavMeshAgent navMeshAgent { get; private set; }
+	public UnityEngine.AI.NavMeshAgent navMeshAgent { get; private set; }
 	private float delayDesaparecerMorto = 3;
 	private float delayRegeneracaoDeVida = 0;
 	private float delayRegeneracaoDeEnergia = 0;
@@ -34,7 +34,7 @@ public class ComportamentoDeSoldado : MonoBehaviour
 	{
 		//Referenciando componentes
 		animator = gameObject.GetComponent<Animator>();
-		navMeshAgent = gameObject.GetComponent<NavMeshAgent>();
+		navMeshAgent = gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
 
 		//Inicio os atributos do personagem
 		atributos = BuildAtributos.atributosDe(nivel, faccao, papel);
